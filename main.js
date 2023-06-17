@@ -6,7 +6,7 @@ const canvas = document.querySelector('#webgl');
 const scene = new Scene();
 
 const textureLoader = new TextureLoader();
-const bgTexture = textureLoader.load("bg/bg.jpg");
+const bgTexture = textureLoader.load("bg.jpg");
 scene.background = bgTexture;
 
 const sizes = {
